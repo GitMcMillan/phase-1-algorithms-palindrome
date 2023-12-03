@@ -1,9 +1,29 @@
+function reverseWord(word) {
+  return word.split(``).reverse().join(``)
+
+}
+
+
 function isPalindrome(word) {
   // Write your algorithm here
+
+  return word === reverseWord(word)
 }
+
+
+
+
 
 /* 
   Add your pseudocode here
+  see if reversed string in reverse is == to string
+  return true if it does
+
+  1: split the word
+  2: reverse the letters/place in variable
+  3: convert from array to string
+  4: compare
+
 */
 
 /*
